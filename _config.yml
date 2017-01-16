@@ -10,7 +10,7 @@ description: > # this means to ignore newlines until "email:"
 
 email: parveenkaursarana@gmail.com
 #blog logo
-logo: "/assets/images/pk_logo.png"
+logo: "/assets/images/pk_logo.jpg"
 float_logo: true # true, false (default)
 
 # blog cover
