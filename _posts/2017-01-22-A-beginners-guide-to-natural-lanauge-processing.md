@@ -1,10 +1,7 @@
-text\_analysis
+How to start
 ================
 Parveen Sarana
 December 1, 2016
-
-A beginners guide to Natural Language Processing \[How to start\]
-=================================================================
 
 Natural language processing is a way to to have a computer understand human langugage. We can manipulate the data as we would do just with numbers but this time on words - it's almost... magical! So here I will apply natural language processing in R on the most magical of series, Harry Potter by J.K. Rowling in regards to sentiment analysis.
 
@@ -113,7 +110,9 @@ ggsave("../results/total_wordcount_series.png")
 wordcountbar
 ```
 
-![](text_ananlysis_files/figure-markdown_github/unnamed-chunk-3-1.png) Interestingly, we see that the length of the book increases in relation to it's position in the series. We see taht the Sorcer's Stone, the first book in the series, is also the shortest and for Deathly Hallows, the last book in the series, it is also the longest.
+![](text_ananlysis_files/figure-markdown_github/unnamed-chunk-3-1.png)
+
+Interestingly, we see that the length of the book increases in relation to it's position in the series. We see taht the Sorcer's Stone, the first book in the series, is also the shortest and for Deathly Hallows, the last book in the series, it is also the longest.
 
 ### Character Importance
 
