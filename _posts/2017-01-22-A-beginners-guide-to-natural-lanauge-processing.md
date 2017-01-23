@@ -65,6 +65,7 @@ data_7 <- str_replace_all(data_7, "[\r\n]" , "")
 Now to dive into the analysis!
 ------------------------------
 
+
 ### Book Length
 
 First, to get our feet wet, let's look at the total length of each book in comparison to the rest of the series by word count. The `library(stringri)` has a useful function known as `stri_stats_latex()` which returns different statistics on a character vector including for our purposes `Words` (number of words).
@@ -107,7 +108,7 @@ ggsave("../results/total_wordcount_series.png")
 ``` r
 wordcountbar
 ```
-![](https://github.com/psarana/psarana.github.io/blob/master/assets/images/total_wordcount_series.png)
+![](../assets/images/total_wordcount_series.png)
 
 Interestingly, we see that the length of the book increases in relation to it's position in the series. We see taht the Sorcer's Stone, the first book in the series, is also the shortest and for Deathly Hallows, the last book in the series, it is also the longest.
 
@@ -211,7 +212,7 @@ dcountp <- ggplot(data = charscount  , aes(x = names), group = 1) +
 dcountp
 ```
 
-![](https://github.com/psarana/psarana.github.io/blob/master/assets/images/main_character_mentions.png)
+![](../assets/images/main_character_mentions.png)
 
 ``` r
 ggsave("../results/main_character_mentions.png")
