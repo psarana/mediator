@@ -1,7 +1,6 @@
 How to start
 ================
-Parveen Kaur
-January 22nd, 2017
+
 
 Natural language processing is a way to to have a computer understand human langugage. We can manipulate the data as we would do just with numbers but this time on words - it's almost... magical! So here I will apply natural language processing in R on the most magical of series, Harry Potter by J.K. Rowling in regards to sentiment analysis.
 
@@ -109,7 +108,7 @@ ggsave("../results/total_wordcount_series.jpg")
 ``` r
 wordcountbar
 ```
-![](../assets/images/total_wordcount_series.jpg)
+![](https://github.com/psarana/psarana.github.io/blob/master/assets/images/total_wordcount_series.jpg)
 
 
 Interestingly, we see that the length of the book increases in relation to it's position in the series. We see taht the Sorcer's Stone, the first book in the series, is also the shortest and for Deathly Hallows, the last book in the series, it is also the longest.
@@ -214,7 +213,7 @@ dcountp <- ggplot(data = charscount  , aes(x = names), group = 1) +
 dcountp
 ```
 
-![](../assets/images/main_character_mentions.jpg)
+![](https://github.com/psarana/psarana.github.io/blob/master/assets/images/main_character_mentions.jpg)
 
 ``` r
 ggsave("../results/main_character_mentions.jpg")
