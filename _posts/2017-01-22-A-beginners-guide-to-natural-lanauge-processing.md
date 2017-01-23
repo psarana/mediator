@@ -1,7 +1,5 @@
 How to start
 ================
-Parveen Kaur
-January 22nd, 2017
 
 Natural language processing is a way to to have a computer understand human langugage. We can manipulate the data as we would do just with numbers but this time on words - it's almost... magical! So here I will apply natural language processing in R on the most magical of series, Harry Potter by J.K. Rowling in regards to sentiment analysis.
 
