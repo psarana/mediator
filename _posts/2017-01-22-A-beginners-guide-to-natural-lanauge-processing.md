@@ -1,5 +1,7 @@
 How to start
 ================
+Parveen Kaur
+January 22nd, 2017
 
 Natural language processing is a way to to have a computer understand human langugage. We can manipulate the data as we would do just with numbers but this time on words - it's almost... magical! So here I will apply natural language processing in R on the most magical of series, Harry Potter by J.K. Rowling in regards to sentiment analysis.
 
@@ -65,7 +67,6 @@ data_7 <- str_replace_all(data_7, "[\r\n]" , "")
 Now to dive into the analysis!
 ------------------------------
 
-
 ### Book Length
 
 First, to get our feet wet, let's look at the total length of each book in comparison to the rest of the series by word count. The `library(stringri)` has a useful function known as `stri_stats_latex()` which returns different statistics on a character vector including for our purposes `Words` (number of words).
@@ -100,7 +101,7 @@ wordcountbar <- ggplot(data = wordcount  , aes(x = names, y = words)) +
   ggtitle("Word Count by Book") +
   xlab("Book Title") +
   ylab("Total Word Count") 
-ggsave("../results/total_wordcount_series.png")
+ggsave("../results/total_wordcount_series.jpg")
 ```
 
     ## Saving 7 x 5 in image
@@ -108,7 +109,8 @@ ggsave("../results/total_wordcount_series.png")
 ``` r
 wordcountbar
 ```
-![](../assets/images/total_wordcount_series.png)
+![](../assets/images/total_wordcount_series.jpg)
+
 
 Interestingly, we see that the length of the book increases in relation to it's position in the series. We see taht the Sorcer's Stone, the first book in the series, is also the shortest and for Deathly Hallows, the last book in the series, it is also the longest.
 
@@ -212,10 +214,10 @@ dcountp <- ggplot(data = charscount  , aes(x = names), group = 1) +
 dcountp
 ```
 
-![](../assets/images/main_character_mentions.png)
+![](../assets/images/main_character_mentions.jpg)
 
 ``` r
-ggsave("../results/main_character_mentions.png")
+ggsave("../results/main_character_mentions.jpg")
 ```
 
     ## Saving 7 x 5 in image
