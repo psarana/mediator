@@ -109,8 +109,7 @@ ggsave("../results/total_wordcount_series.png")
 ``` r
 wordcountbar
 ```
-
-![](text_ananlysis_files/figure-markdown_github/unnamed-chunk-3-1.png)
+![](https://github.com/psarana/psarana.github.io/blob/master/assets/images/total_wordcount_series.png)
 
 Interestingly, we see that the length of the book increases in relation to it's position in the series. We see taht the Sorcer's Stone, the first book in the series, is also the shortest and for Deathly Hallows, the last book in the series, it is also the longest.
 
@@ -214,7 +213,7 @@ dcountp <- ggplot(data = charscount  , aes(x = names), group = 1) +
 dcountp
 ```
 
-![](text_ananlysis_files/figure-markdown_github/unnamed-chunk-5-1.png)
+![](https://github.com/psarana/psarana.github.io/blob/master/assets/images/main_character_mentions.png)
 
 ``` r
 ggsave("../results/main_character_mentions.png")
