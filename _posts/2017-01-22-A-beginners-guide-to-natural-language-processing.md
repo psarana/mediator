@@ -111,11 +111,11 @@ wordcountbar
 ![](https://psarana.github.io/assets/images/total_wordcount_series.jpg)
 
 
-Interestingly, we see that the length of the book increases in relation to it's position in the series. We see taht the Sorcer's Stone, the first book in the series, is also the shortest and for Deathly Hallows, the last book in the series, it is also the longest.
+Interestingly, we see that the length of the book increases in relation to it's position in the series. We see that the Sorcerer's Stone, the first book in the series, is also the shortest and for Deathly Hallows, the last book in the series, is also the longest.
 
 ### Character Importance
 
-If you know anything about the Harry Potter series (or if you are a bandwagoner who only watched the movies), you probably have an idea of the main characters. Some characters that come to mind when thinking about the Harry Potter series are (naturally) Harry, Ron, Hermione, Dumbledore, Snape and Voldemort.Let's see if that intuition relates to what is actually seen in the data we have. Importance will be equated to the number of mentions by first name and/or preferred name over the series.
+If you know anything about the Harry Potter series (or if you are a bandwagoner who only watched the movies), you probably have an idea of the main characters. Some characters that come to mind when thinking about the Harry Potter series are (naturally) Harry, Ron, Hermione, Dumbledore, Snape and Voldemort. Let's see if that intuition relates to what is actually seen in the data we have. Importance will be equated to the number of mentions by first name and/or preferred name over the series.
 
 ``` r
 # Sum mentions of important characters per book
@@ -190,7 +190,7 @@ print(charscount)
     ## 6    Half Blood Prince       1035  2784 1166      695   384       244
     ## 7      Deathly Hallows        593  3117 1479     1218   297       452
 
-Again, like I mentioned above, numbers are great - but visualizations are definitely better. How I see it, numbers give you a sense of knowing an amount percisely but visualizations are able to give you a sense of context of the importance of that amount in relation to others. With this thought in mind, let's take the numbers we found for mentions of characters per book and book it into a bar graph.
+Again, like I mentioned above, numbers are great - but visualizations are definitely better. How I see it, numbers give you a sense of knowing an amount precisely but visualizations are able to give you a sense of context of the importance of that amount in relation to others. With this thought in mind, let's take the numbers we found for mentions of characters per book and look at it visually with a line graph.
 
 ``` r
 #bar graph
@@ -225,4 +225,4 @@ From our visualization, we are able to see the importance (as defined by total c
 
 There are many missing pieces with this analysis. My fellow Potterheads will know that many of these characters go by many different aliases. Looking specifically at Lord Voldemort, he is also referred to as "He-Who-Must-Be-Named" or the "Dark Lord". These type of details will enhance our analysis and make a more accurate conclusion in regards to ranking the importance of main characters. This is a great next step.
 
-I hope this inspired you to ask more questions about this data - where can we go from here? I will continue to play around with this data set in a series, A beginners guide to Natural Language Processing, where code and analysis will get exceedingly more sophisticated but I hope this took away the fear of starting for those hoping to dabble in the field.
+I hope this inspired you to ask more questions about this data - where can we go from here? I will continue to play around with this data set in the series, A beginners guide to Natural Language Processing, where code and analysis will get exceedingly more sophisticated but I hope this took away the fear of starting for those hoping to dabble in the field.
