@@ -2,11 +2,11 @@ How to start
 ================
 
 
-Natural language processing is a way to to have a computer understand human langugage. We can manipulate the data as we would do just with numbers but this time on words - it's almost... magical! So here I will apply natural language processing in R on the most magical of series, Harry Potter by J.K. Rowling in regards to sentiment analysis.
+Natural language processing is a way to to have a computer understand human langugage. We can manipulate the data as we would do just with numbers but this time on words - it's almost... magical! So here I will apply natural language processing in R on the most magical of series, Harry Potter by J.K. Rowling. This is be the first of in a series of progressively more complex analysis on this series, in this post we will focus on where to start.
 
 You will see that most of the analysis here is done in an inefficient or even "unsophisticated" way", but that's the point - it doesn't have to be difficult or complex! When I first dove into trying to this project, I felt overwhelmed at the idea of extracting information from just plain human language text! I hope that this simplified coding structure makes not only this project, but others seem more approachable.
 
-You can find the plain text versions of the series [here](https://www.stats.ox.ac.uk/~snijders/siena/HarryPotterData.html). Also, if you plan to be playing around with this more this once (like I probably will), you can actually use a package on the [Harry Potter series](https://github.com/bradleyboehmke/harrypotter). Once you have your human language, in this case the Harry Potter novels, converted into a format that a computer can understanding, the possibilities are endless! Here I will play around with some different manipulations on data of the Harry Potter series.
+You can find the plain text versions of the series [here](https://www.stats.ox.ac.uk/~snijders/siena/HarryPotterData.html). Also, if you plan to be playing around with this more than once (like I probably will), you can use a package on the [Harry Potter series](https://github.com/bradleyboehmke/harrypotter). Once you have your human language, in this case the Harry Potter novels, converted into a format that a computer can understanding, the possibilities are endless! Here I will play around with some different manipulations on data of the Harry Potter series.
 
 First we must extract the data into a manageable form.
 ------------------------------------------------------
@@ -44,7 +44,7 @@ book5 <-"../data/Harry_Potter_and_the_Order_of_the_Phoenix.txt"
 book6 <- "../data/Harry_Potter_and_the_Half_Blood_Prince.txt"
 book7 <-"../data/Harry_Potter_and_the_Deathly_Hallows.txt"
 
-#Read in plain text book files, also converting all text to lower case 
+#Read in plain text book files, also converting all text to lower case
 data_1 <- tolower(readChar(book1, file.info(book1)$size))
 data_2 <- tolower(readChar(book2, file.info(book2)$size))
 data_3 <- tolower(readChar(book3, file.info(book3)$size))
@@ -94,12 +94,12 @@ wordcount$words <- wordcount$words[order(wordcount$words, decreasing= FALSE)]
 wordcount$names <- factor(wordcount$names, levels = wordcount$names[order(wordcount$words )])
 
 #bar graph
-wordcountbar <- ggplot(data = wordcount  , aes(x = names, y = words)) + 
+wordcountbar <- ggplot(data = wordcount  , aes(x = names, y = words)) +
   geom_bar(stat = "identity") +
   theme(axis.text.x = element_text(angle = 90, hjust = 1)) +
   ggtitle("Word Count by Book") +
   xlab("Book Title") +
-  ylab("Total Word Count") 
+  ylab("Total Word Count")
 ggsave("../results/total_wordcount_series.jpg")
 ```
 
@@ -194,7 +194,7 @@ Again, like I mentioned above, numbers are great - but visualizations are defini
 
 ``` r
 #bar graph
-dcountp <- ggplot(data = charscount  , aes(x = names), group = 1) + 
+dcountp <- ggplot(data = charscount  , aes(x = names), group = 1) +
   theme(axis.text.x = element_text(angle = 90, hjust = 1)) +
   geom_line(aes(y = dcount, colour = "Dumbledore"), group = 1) +
   geom_line(aes(y = hcount, colour = "Harry"), group =1) +
@@ -202,11 +202,11 @@ dcountp <- ggplot(data = charscount  , aes(x = names), group = 1) +
   geom_line(aes(y = vcount, colour = "Voldemort"), group =1 ) +
   geom_line(aes(y = ecount, colour = "Hermione"), group = 1) +
   geom_line(aes(y = scount, colour = "Snape"), group = 1) +
-  theme(axis.text.x = element_text(angle = 90, hjust = 1)) + 
+  theme(axis.text.x = element_text(angle = 90, hjust = 1)) +
   ggtitle("Character Mentions in Harry Potter Series") +
   ylab("Total Mentions") +
-  scale_x_discrete("Book", labels = c(names)) + 
-  scale_colour_manual("", 
+  scale_x_discrete("Book", labels = c(names)) +
+  scale_colour_manual("",
                       breaks = c("Harry", "Ron", "Hermione", "Dumbledore" , "Voldemort", "Snape"),
                       values = c("#e41a1c", "#377eb8",  "#ff7f00", "#4daf4a", "#984ea3", "#ffff33"))
 
