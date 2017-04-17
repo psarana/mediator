@@ -17,11 +17,11 @@ As with any explanatory and response variable relationship, there are many possi
 
 **Methods**
 
-![](https://github.com/psarana/psarana.github.io/blob/master/assets/images/Age_versus_SelfSatisfaction.jpg)
+![](https://psarana.github.io/assets/images/Age_versus_SelfSatisfaction.jpg)
 
 The data was explored first with visualization. By plotting age versus satisfaction which showed some sort of relation  that with as age increases, satisfaction initially increases but caps at approximately 40-50 where it drastically decreases.
 
-![](https://github.com/psarana/psarana.github.io/blob/master/assets/images/Age_versus_SelfSatisfaction_BySex.jpg)
+![](https://psarana.github.io/assets/images/Age_versus_SelfSatisfaction_BySex.jpg)
 
 This visual trend did not change when the blocked groups of females and males were considered separately. However, visualizations can be misleading so the next step was to test if there was a  significant difference between the proportion of  females versus males who responded to the self-satisfaction question in 2004 using a chi-squared test.
 
