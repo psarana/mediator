@@ -95,10 +95,6 @@ The results conclude that with the chosen linear regression model, there is no s
 
 So it seems like age cannot be said to (statistically) suggest that one will become more self-satisfied over the years. This is actually most fitting as self-satisfaction is meant to be something continually strived so perhaps one can find solace in the process rather than the destination in this case. Life, liberty and the pursuit of self-satisfaction may be a life long journey.
 
-To see the full code and additional methods that were applied to come to the final conclusions included in this blog post, head over to my [Github page]().
-
-
-
 References
 
 "GSS Data Explorer | NORC At The University Of Chicago". Gssdataexplorer.norc.org. N.p., 2017. Web. 17 Apr. 2017.
