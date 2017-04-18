@@ -7,14 +7,13 @@ gems:
 title: ""
 description: > # this means to ignore newlines until "email:"
    The Dabblings of a Data Scientist
-
 email: parveenkaursarana@gmail.com
 #blog logo
 logo: "/assets/images/pk_logo.jpg"
 float_logo: true # true, false (default)
 
 # blog cover
-cover: "/assets/images/watercolorlemons_header.png"
+cover: "/assets/images/headers/watercolorlemons_header.png"
 
 name: 'Parveen Kaur'
 author: 'Parveen Kaur'
