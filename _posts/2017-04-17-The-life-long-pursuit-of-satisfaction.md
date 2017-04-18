@@ -19,11 +19,11 @@ As with any explanatory and response variable relationship, there are many possi
 
 ![](https://psarana.github.io/assets/images/Age_versus_SelfSatisfaction.jpg)
 
-The data was explored first with visualization. By plotting age versus satisfaction which showed some sort of relation  that with as age increases, satisfaction initially increases but caps at approximately 40-50 where it drastically decreases.
+The data was explored first with visualization. By plotting age versus the number of self-satisfied individuals shows that there seems to be an increase in self-satisfaction from 40-50 years of age and after/before that there seems to be no definite trend.
 
 ![](https://psarana.github.io/assets/images/Age_versus_SelfSatisfaction_BySex.jpg)
 
-This visual trend did not change when the blocked groups of females and males were considered separately. However, visualizations can be misleading so the next step was to test if there was a  significant difference between the proportion of  females versus males who responded to the self-satisfaction question in 2004 using a chi-squared test.
+This visual trend did not change when the blocked groups of females and males were considered separately except for a sharp peak at self-satisfaction in females of age approximately 45. Even though we do see slightly higher values for females over males we must remember that visualizations can be misleading so it is important to double check these visual findings. The next step was to test if there was a  significant difference between the proportion of  females versus males who responded to the self-satisfaction question in 2004 using a chi-squared test.
 
 The next analysis was with  a logistic regression model which modelled whether or not an individual is satisfied or not  as dependent variable and age, respondent's income, education and race as independent variables. Note that several models were considered and compared with an anova test before settling on the one used for analysis.
 
