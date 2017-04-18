@@ -9,7 +9,7 @@ If we switch our focus to continually striving for satisfaction rather than chas
 
 **The Data**
 
-Looking at survey data from the USA General Social Survey (GSS), I attempted to do an in-depth analysis of the variables age and self-satisfaction.  The GSS is a  large scale, representative survey of American adults living in households and has been providing demographic and sociological data on a wide variety of topics since 1972[1](https://gssdataexplorer.norc.org).
+Looking at survey data from the USA General Social Survey (GSS), I attempted to do an in-depth analysis of the variables age and self-satisfaction.  The GSS is a  large scale, representative survey of American adults living in households and has been providing demographic and sociological data on a wide variety of topics since 1972 ([1](https://gssdataexplorer.norc.org)).
 
 In 2004, survey respondents were asked their level of agreement (strongly agree, agree, disagree and slightly disagree) with the statement: "On the whole, I am satisfied with myself".
 
