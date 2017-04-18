@@ -1,6 +1,7 @@
 Will you become more self-satisfied with age?
 ================
 
+
 **The back story**
 
 "Life, liberty, and the pursuit of happiness" is one of the most well-known phrases from the United States Declaration of Independence. The phrase highlights a few of the common goals Americans may have - however, should happiness really be  one of *the* most central goals? Happiness relates to an optimistic state of mind. It goes without saying that being happy is preferable to being unhappy but happiness is something that is in need of constant effort. Happiness requires us to consistently take actions that can maintain our happiness but I would argue a greater goal would be one of striving for satisfaction. Happiness can be manipulated and stimulated whereas satisfaction is a sense of holistic fulfillment with oneself and/or with one's life. Satisfaction can also be the feeling of completing goals or obtaining some set achievements. Unlike happiness, satisfaction of achievements/goals is not fickle and does not fade. The purpose of life should not be to "feel" satisfaction but to continually strive for it.
